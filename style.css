@@ -1,0 +1,241 @@
+* {
+
+	padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #737BE1;
+  border-radius: 12px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Marck+Script|Ubuntu");
+body {
+  font-family: 'Spartan', sans-serif;
+  color: #FFF;
+  background-color: #1c1c20;
+}
+
+.header {
+
+	background-color: #003333;
+	height: 80px;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.logo{
+  margin-top: 10px;
+  margin-left: 75px;
+  float: left;
+  color: #737be1;
+}
+
+.menu{
+  line-height: 90px;
+}
+
+.menu a{
+
+	padding-left: 40px;
+  margin-left: 40px;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	transition: 0.4s;
+}
+
+.menu a:hover{
+
+	color: #737BE1;
+
+}
+
+.main-info {
+
+	color: #737BE1;
+	text-align: center;
+	margin-top: 250px;
+	margin-left: 1px;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 4px #000;
+}
+
+.main-info p {
+
+	font-size: 12px;
+	color: #FFF;
+}
+
+.connect-button {
+
+
+	text-align: center;
+	margin-left: -30px;
+	color: #FFF;
+	font-weight: bold;
+	border: none;
+	margin-top: 10px;
+  background-color: transparent;
+  font-size: 25px;
+  border-radius: 10px;
+  transition: 0.4s;
+  text-shadow: 0px 0px 4px #000;
+}
+
+.connect-button:hover {
+
+	border: solid 1px #fff;
+  background-color: transparent;
+  background-image: none;
+  color: #FFF;
+  border: solid 1px #FFF;
+  border-radius: 50px;
+  padding: 4px 24px 4px 24px;
+  text-decoration: none;
+}
+
+.discord-button {
+
+
+	text-align: center;
+	margin-left: -25px;
+	margin-top: 5px;
+	color: #FFF;
+	font-weight: bold;
+	border: none;
+  background-color: transparent;
+  font-size: 25px;
+  border-radius: 10px;
+  transition: 0.4s;
+  text-shadow: 0px 0px 4px #000;
+
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.discord-button:hover {
+
+	border: solid 1px #fff;
+  background-color: transparent;
+  background-image: none;
+  color: #FFF;
+  border: solid 1px #FFF;
+  border-radius: 50px;
+  padding: 4px 24px 4px 24px;
+
+}
+
+.main-container {
+
+	background-image: url(img/background.jpg);
+	height: 620px;
+  width: 100%;
+}
+
+.main-container img{
+
+	margin-top: 100px;
+	margin-left: 100px;
+
+}
+
+.introduction {
+
+	background-color: #1c1c20;
+	color: #fff;
+}
+
+.img-first {
+	margin-left: 1100px;
+}
+
+.title {
+
+	margin-top: 150px;
+	text-align: center;
+}
+.nodi-main {
+
+	font-size: 10px;
+	text-align: center;
+	margin-left: -25px;
+	margin-top: -35px;
+}
+.alr {
+	font-size: 10px;
+	text-align: center;
+	margin-left: -25px;
+}
+
+.nodi-main:hover{
+
+	font-size: 11px;
+}
+.news{
+	color: #fff;
+	float: right;
+	margin-right: 1000px;
+	margin-top: 30px;
+}
+
+.updates {
+
+	float: left;
+	margin-top: -365px;
+	margin-left: 400px;
+}
+
+.introduction img {
+
+	margin: 0;
+	margin-bottom: -5px;
+}
+
+.performance {
+
+	float: left;
+	margin-top: -240px;
+	margin-left: 399px;
+}
+
+.text-updates {
+	
+	color: #737BE1;
+	float: right;
+	margin-right: 765px;
+	margin-top: -340px;
+
+}
+
+.text-server {
+
+	color: #737BE1;
+	float: right;
+	margin-right: 850px;
+	margin-top: -465px;
+}
+
+.text-performance {
+
+	color: #737BE1;
+	float: right;
+	margin-right: 820px;
+	margin-top: -210px;
+}
